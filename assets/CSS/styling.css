@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+/*body specs here*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;    
+}
+
+/*styling for header image*/
+#header-img {
+    width: 100%;}
+
+/* Navigation bar styling */
+#navbar {
+    display: flex;
+    list-style-type:none;
+    width: 100%;
+}
