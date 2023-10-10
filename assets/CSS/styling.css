@@ -94,6 +94,28 @@ nav {
     font-size: 125%;
 }
 
+#thegang-left {
+    display: flex;
+    float: left;
+    
+
+}
+
+#thegang-right {
+    display: flex;
+    float: right;
+
+}
+
+#thegang-left img {
+
+}
+
+#thegang-right img{
+    position: absolute;
+    right: 0;
+}
+
 .gametrailer {
     padding: 25px 0 25px;
     text-align: center;  
