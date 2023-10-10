@@ -29,22 +29,14 @@ header {
 h1,
 h2,
 h3 {
-    font-family: ;
-    font-size: 150%;
+    font-family: ubuntu;
+    font-size: 200%;
     text-align: center;
     letter-spacing: 1px;
     padding: 5px;
 }
 
-.title {
-    padding: 25px 10px 15px;
-    background-image: linear-gradient(#000000, #181818);
-}
 
-#aboutgame {
-    padding: 15px 25px 25px;
-    text-align: center;
-}
 
 hr {
     display: none;
@@ -86,6 +78,25 @@ nav {
     width: 100%;
 }
 
+.title {
+    padding: 25px 10px 15px;
+    background-image: linear-gradient(#000000, #181818);
+}
+
+#aboutgame {
+    padding: 15px 50px 25px;
+    font-size: 125%;
+    text-align: center;
+}
+
+.gametrailer {
+    
+}
+
+#footer-socials {
+    
+}
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
@@ -95,6 +106,35 @@ nav {
 .title {
     padding: 45px 0 15px}
 
-#aboutgame {
-    padding: 15px 85px 25px;}
+#aboutgame{
+    padding: 15px 150px 25px;}
+}
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    #aboutgame {
+            padding: 15px 200px 25px;
+        }
+    
+
+}
+
+/* Large devices (Laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #aboutgame {
+            padding: 15px 300px 25px;
+        }
+
+
+}
+
+
+/* Large devices (Laptops and desktops, 1200px and up */
+@media screen and (min-width: 1200px) {
+    #aboutgame {
+            padding: 15px 350px 25px;
+        }
+
 }
