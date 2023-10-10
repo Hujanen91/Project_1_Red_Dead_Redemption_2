@@ -94,26 +94,16 @@ nav {
     font-size: 125%;
 }
 
-#thegang-left {
+#thegang-left #thegang-right {
     display: flex;
     float: left;
-    
 
 }
 
-#thegang-right {
-    display: flex;
-    float: right;
+#thegang-img-left #thegang-img-right {
+    border-radius: 50%;
+    padding-left: 25px;
 
-}
-
-#thegang-left img {
-
-}
-
-#thegang-right img{
-    position: absolute;
-    right: 0;
 }
 
 .gametrailer {
@@ -168,6 +158,30 @@ nav {
 
     .gametrailer iframe {
             height: 650px;
+        }
+
+    #thegang-left {
+            display: flex;
+            float: left;
+    
+        }
+    
+    #thegang-right {
+            display: flex;
+            float: right;
+    
+        }
+    
+    #thegang-left img {
+            border-radius: 50%;
+            padding-left: 25px
+        }
+    
+    #thegang-right img {
+            position: absolute;
+            right: 0;
+            border-radius: 50%;
+            padding-right: 25px
         }
 }
 
