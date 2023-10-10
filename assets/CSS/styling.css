@@ -94,7 +94,18 @@ nav {
 }
 
 #footer-socials {
-    
+    background-image: linear-gradient( #181818, #cc0000);
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#footer-socials i {
+    font-size: 160%;
+    padding: 5%;
+    color: #EBD8B7;
 }
 
 /* Media query: large or landscape phones (576px and up) */
