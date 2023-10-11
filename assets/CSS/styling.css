@@ -119,10 +119,6 @@ nav {
     text-align: center;
 }
 
-#gamemap iframe{
-    border-radius: 
-}
-
 .gametrailer {
     padding: 25px 0 25px;
     text-align: center;  
@@ -225,6 +221,7 @@ footer {
     .thegang-right span {
         text-align: left;
         padding-top: 72px;
+       
     }
 
     .thegang-left span {
