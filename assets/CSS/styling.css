@@ -231,8 +231,12 @@ footer {
             right: 0;
             margin-right: 15px;
             border-radius: 50%;
-    
         }
+
+    .thegang-right img alt{
+        padding-top: 50px;
+    }
+
     .thegang-right span {
         text-align: right;
         padding: 40px 260px 40px 0
@@ -253,15 +257,22 @@ footer {
         text-align: right;
     }
     
+    #gamemap iframe {
+        height: 600px;
+    }
 }
 
 /* Large devices (Laptops and desktops, 1200px and up */
 @media screen and (min-width: 1200px) {
     #aboutgame {
-            padding: 15px 350px 25px;
-        }
+        padding: 15px 350px 25px;
+    }
     .gametrailer iframe {
-            height: 750px;
+        height: 750px;
+    }
+
+    #gamemap iframe {
+        height: 800px;
     }
 
 }
