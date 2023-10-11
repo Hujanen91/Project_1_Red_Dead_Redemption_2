@@ -37,7 +37,7 @@ h3 {
     padding: 5px;
 }
 
-div {
+.thegang-img-div {
     display:flex
 }
 
@@ -97,7 +97,7 @@ nav {
     font-size: 125%;
 }
 
-#thegang-left, #thegang-right{
+.thegang-left, .thegang-right{
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -105,7 +105,7 @@ nav {
 
 }
 
-#thegang-img-left, #thegang-img-right {
+.thegang-left img, .thegang-right img {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
@@ -114,12 +114,21 @@ nav {
 
 }
 
+.thegang-right img {
+    
+}
+
 .gametrailer {
     padding: 25px 0 25px;
     text-align: center;  
 }
 
 /* Footer styling */
+
+footer {
+    margin-top: auto;
+}
+
 #footer-socials {
     background-image: linear-gradient( #181818, #cc0000);
     text-align: center;
@@ -148,13 +157,11 @@ nav {
 #aboutgame{
     padding: 15px 150px 25px;}
 
-#thegang-img-left,
-#thegang-img-right {
-    display: flex;
-    align-items: left;
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;}
+.thegang-left img, .thegang-right img{
+    height: 200px;
+    width: 200px;
+}
+
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -162,39 +169,12 @@ nav {
 
     #aboutgame {
             padding: 15px 200px 25px;
-        }   
-    #thegang-left {
-            display: flex;
-            float: left;
-            width: 50%;
-            padding-left: 15px;
-        
         }
-        
-    #thegang-right {
-            display: flex;
-            float: right;
-            width: 50%;
-            text-align: left;
-            padding-right: 15px;
-            margin-top: 150px
-        }
-        
-    #thegang-img-left {
-            position: absolute;
-            left: 0;
-            border-radius: 50%;
-           
-        
-        }
-        
-    #thegang-img-right {
-            position: absolute;
-            right: 0;
-            margin-right: 15px;
-            border-radius: 50%;
-        
-        }
+    .thegang-left img,
+    .thegang-right img {
+        height: 250px;
+        width: 250px;
+    }
 }
 
 /* Large devices (Laptops and desktops, 992px and up) */
@@ -208,36 +188,44 @@ nav {
             height: 650px;
         }
 
-    #thegang-left {
+    .thegang-left {
             display: flex;
             float: left;
             width: 50%;
             padding-left: 15px;
-    
+            padding-right: 15px;
         }
     
-    #thegang-right {
+    .thegang-right {
             display: flex;
             float: right;
             width: 50%;
             text-align: left;
             padding-right: 15px;
-            margin-top: 150px
-    
+            padding-left: 15px;
+            margin-top: 150px;
+            padding-bottom: 150px
         }
     
-    #thegang-img-left {
+    .thegang-left img{
             border-radius: 50%;
-            
         }
     
-    #thegang-img-right {
+    .thegang-right img{
             position: absolute;
             right: 0;
             margin-right: 15px;
             border-radius: 50%;
-            
         }
+    .thegang-right span {
+        text-align: left;
+        padding-top: 72px;
+    }
+
+    .thegang-left span {
+        padding-top: 72px;
+        text-align: left;
+    }
     
 }
 
