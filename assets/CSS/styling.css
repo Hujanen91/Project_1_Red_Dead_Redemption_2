@@ -53,7 +53,6 @@ nav {
 }
 
 #navbar {
-    
     display:list-item;
     list-style-type:none;
     align-content: center;
@@ -97,11 +96,26 @@ nav {
     font-size: 125%;
 }
 
-.thegang-left, .thegang-right{
+.thegang-left {
     display: block;
     margin: 0 auto;
     text-align: center;
-    padding: 15px 15px
+    padding: 15px 15px;
+    font-size: 20px;
+
+}
+
+.thegang-right {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 20px;
+}
+
+q {
+    font-size: 18px;
+    font-style: italic;
 
 }
 
@@ -199,12 +213,12 @@ footer {
     
     .thegang-right {
             display: flex;
-            float: right;
+            justify-content: right;
             width: 50%;
             text-align: left;
             padding-right: 15px;
             padding-left: 15px;
-            margin-top: 150px;
+            
             padding-bottom: 150px
         }
     
@@ -217,16 +231,26 @@ footer {
             right: 0;
             margin-right: 15px;
             border-radius: 50%;
+    
         }
     .thegang-right span {
-        text-align: left;
-        padding-top: 72px;
-       
+        text-align: right;
+        padding: 40px 260px 40px 0
     }
 
     .thegang-left span {
-        padding-top: 72px;
+        padding-top: 40px;
+        padding-left: 10px;
         text-align: left;
+       
+    }
+
+    .thegang-left h2 {
+        text-align: left;
+    }
+
+    .thegang-right h2 {
+        text-align: right;
     }
     
 }
