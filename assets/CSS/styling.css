@@ -114,8 +114,13 @@ nav {
 
 }
 
-.thegang-right img {
-    
+#gamemap{
+    padding: 25px 0 25px;
+    text-align: center;
+}
+
+#gamemap iframe{
+    border-radius: 
 }
 
 .gametrailer {
