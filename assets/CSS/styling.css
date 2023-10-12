@@ -61,7 +61,7 @@ nav {
 
 #navbar li {
     width: 100%;
-    font-size: 110%;
+    font-size: 130%;
     letter-spacing: 2px;
     padding: 8px;
     border-radius: 10%;
@@ -80,8 +80,11 @@ nav {
 }
 /* Effect styling for when hovering over links in navigation bar */
 #navbar a:hover {
-    box-shadow: inset 120px 0 0 0 #800000;
     width: 100%;
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=800000);
+    margin: -2px -6px;
+    padding: 6px 15px;
+    
 }
 
 /* Styling for .title - h1 element on index page */
