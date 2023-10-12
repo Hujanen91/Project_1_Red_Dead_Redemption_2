@@ -107,7 +107,6 @@ nav {
     text-align: center;
     padding: 15px 15px;
     font-size: 20px;
-
 }
 
 .thegang-right {
@@ -145,7 +144,8 @@ q {
 
 /* Footer styling */
 
-#back-to-top a{
+.back-to-top a{
+    font-size: 75%;
     text-decoration: none;
     color: #EBD8B7;
     background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=800000);
@@ -153,7 +153,7 @@ q {
     padding: 6px 15px;
 }
 
-#back-to-top {
+.back-to-top {
     padding-bottom: 25px;
 }
 
