@@ -90,6 +90,11 @@ nav {
     background-image: linear-gradient(#000000, #181818);
 }
 
+.highlight-titles {
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=800000);
+    margin: -2px -6px;
+    padding: 6px 15px;}
+
 #aboutgame {
     text-align: center;
     padding: 15px 50px 50px;
@@ -128,19 +133,6 @@ q {
 
 }
 
-.thegang-top-of-page a{
-        font-family: ubuntu;
-        font-weight: bold;
-        text-decoration: none;
-        text-align: center;
-        box-shadow: inset 0 0 0 0 #800000;
-        color: #EBD8B7;
-        margin: 0 -.25rem;
-        padding: 0 .25rem;
-        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-    
-}
-
 #gamemap{
     padding: 25px 0 25px;
     text-align: center;
@@ -152,6 +144,18 @@ q {
 }
 
 /* Footer styling */
+
+#back-to-top a{
+    text-decoration: none;
+    color: #EBD8B7;
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=800000);
+    margin: -2px -6px;
+    padding: 6px 15px;
+}
+
+#back-to-top {
+    padding-bottom: 25px;
+}
 
 footer {
     margin-top: auto;
@@ -221,7 +225,7 @@ footer {
             float: left;
             width: 50%;
             padding-left: 15px;
-            padding-right: 15px;
+            padding-right: 25px;
         }
     
     .thegang-right {
@@ -230,8 +234,7 @@ footer {
             width: 50%;
             text-align: left;
             padding-right: 15px;
-            padding-left: 15px;
-            
+            padding-left: 25px;
             padding-bottom: 150px
         }
     
@@ -258,7 +261,6 @@ footer {
     .thegang-left span {
         padding-top: 40px;
         padding-left: 10px;
-        padding-right: 25px;
         text-align: left;
        
     }
@@ -287,6 +289,16 @@ footer {
 
     #gamemap iframe {
         height: 800px;
+    }
+
+    .thegang-right {
+        padding-left: 50px;
+
+    }
+
+    .thegang-left {
+        padding-right: 50px;
+
     }
 
 }
