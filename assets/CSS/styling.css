@@ -17,10 +17,18 @@ body {
 header {
     width: 100%;
     background-color: #000000;
+    display:flex;
+    justify-content:center;
+    
+    
 }
 
 header img {
-    width: 100%;
+    padding: 50px;
+    width: 80%;
+    max-height: 60%;
+    opacity: 75%;
+    
 }
 
 /*styling for header image*/
@@ -152,6 +160,7 @@ q {
 
 /* Contact form styling */
 input[type=text],
+input[type=email],
 select,
 textarea {
     background-color: #EBD8B7;
@@ -162,7 +171,6 @@ textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    
     resize: vertical
 }
 
@@ -256,7 +264,7 @@ footer {
 
     .container {
     width: 50%;
-    height: 100%;
+    height: 100%;}
 
 }
 
@@ -273,7 +281,7 @@ footer {
     }
     .container {
         width: 40%;
-        height: 100%;
+        height: 100%;}
 }
 
 /* Large devices (Laptops and desktops, 992px and up) */
@@ -361,12 +369,8 @@ footer {
 
     .thegang-right {
         padding-left: 50px;
-
     }
 
     .thegang-left {
-        padding-right: 50px;
-
-    }
-
+        padding-right: 50px;}
 }
