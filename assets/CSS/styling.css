@@ -19,6 +19,10 @@ header {
     background-color: #000000;
 }
 
+header img {
+    width: 100%;
+}
+
 /*styling for header image*/
 #header-img {
     width: 100%;
@@ -144,6 +148,51 @@ q {
 .gametrailer {
     padding: 25px 0 25px;
     text-align: center;  
+}
+
+
+input[type=text],
+select,
+textarea {
+    background-color: #EBD8B7;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #800000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #800000;
+    color: #EBD8B7;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form label {
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #cc0000;
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    align-self: center;
+    border-radius: 20px;
+    background-color: #181818;
+    padding: 20px;
+    border: 1px solid #000000;
+
 }
 
 /* Footer styling */

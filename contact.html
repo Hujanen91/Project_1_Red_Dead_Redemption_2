@@ -42,10 +42,24 @@
 
     <main>
         <h2 class="title"><span class="highlight-titles">Contact us</span></h2>
-        <div>
-
+        <div class="container">
+            <form action="/contact-thanks.html">
+                <label for="fname">First name</label>
+                <input type="text" id="fname" name="firstname" required>
+               
+                <label for="lname">Last name</label>
+                <input type="text" id="lname" name="lastname" required>
+        
+                <label for="lname">Email</label>
+                <input type="text" id="email" name="email" required>
+        
+                <label for="subject">Meddelande</label>
+                <textarea id="subject" name="subject"></textarea>
+                <input type="submit" value="Skicka meddelande">
+                
+        
+            </form>
         </div>
-
 
     </main>
     <hr />
