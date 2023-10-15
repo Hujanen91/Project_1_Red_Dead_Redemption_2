@@ -150,7 +150,7 @@ q {
     text-align: center;  
 }
 
-
+/* Contact form styling */
 input[type=text],
 select,
 textarea {
@@ -177,6 +177,10 @@ input[type=submit] {
 
 form label {
     font-size: 20px;
+    width: 100%;
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=800000);
+    margin: -2px -6px;
+    padding: 6px 15px;
 }
 
 input[type=submit]:hover {
@@ -184,15 +188,19 @@ input[type=submit]:hover {
 }
 
 .container {
-    width: 60%;
+    width: 80%;
     height: 100%;
     margin: 0 auto;
     align-self: center;
     border-radius: 20px;
     background-color: #181818;
     padding: 20px;
-    border: 1px solid #000000;
+    margin-bottom: 25px;
+    
+}
 
+#subject {
+    height: 150px;
 }
 
 /* Footer styling */
@@ -244,8 +252,11 @@ footer {
 
 .thegang-left img, .thegang-right img{
     height: 200px;
-    width: 200px;
-}
+    width: 200px;}
+
+    .container {
+    width: 50%;
+    height: 100%;
 
 }
 
@@ -260,6 +271,9 @@ footer {
         height: 250px;
         width: 250px;
     }
+    .container {
+        width: 40%;
+        height: 100%;
 }
 
 /* Large devices (Laptops and desktops, 992px and up) */
@@ -329,6 +343,7 @@ footer {
     #gamemap iframe {
         height: 600px;
     }
+
 }
 
 /* Large devices (Laptops and desktops, 1200px and up */
