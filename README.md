@@ -1,20 +1,12 @@
 # Red Dead Redemption 2 Fan Page
 
 This website is intended to provide information in different forms about Rockstars game Red Dead Redemption 2 that was released on different platforms in October 2018.
-The intention is to provide a simple website that is easy to navigate, that provides information about the game in video, image and text. There's simple navigations, clear contrast between the colors on the webpage and 
-
-<!--This website is intended to provide summarized overall information about the lesser-known Swedish polar expedition in 1987 for those who are into odd history facts. The intention is to be able to provide a simple website with sharp contrasts, short information that creates curiosity, simple navigation with few pages and a gallery with the images that were found upon discovery of expedition 33 years after the men from the expedition are presumed to have disappeared without a trace.-->
-
+The intention is to provide a simple website that is easy to navigate, that provides information about the game in video, image and text. There's simple navigations, clear contrast between the colors on the webpage and the background.
 ![Mockup](docs/readme_images/mockupp.png)
 
 ## Header
 
-The main element that you see when entering the website is a picture designed by Rockstar containing the image of 7 men walking on a row holding guns and with the text "Rockstar games presents Red Dead Redemption 2" above them. You'll know immediatly what the website is going to be about. The image sits in the header tag."
-
-<!-- -At the top we find the most famous image from the Polar Expedition - a crashed hot air balloon to create curiosity but also to signal that this website is dedicated to something historical.
-
-- Contains the navigation bar code.-->
-
+The main element that you see when entering the website is a picture designed by Rockstar containing the image of 7 men walking on a row holding guns with the text "Rockstar games presents Red Dead Redemption 2" above them. You'll know immediatly what the website is going to be about. The image sits in the header tag.
 ![Header](docs/readme_images/header.png)
 
 ## Navigation Bar
