@@ -1,196 +1,458 @@
 # Red Dead Redemption 2 Fan Page
 
 This website is intended to provide information in different forms about Rockstars game Red Dead Redemption 2 that was released on different platforms in October 2018.
-The intention is to provide a simple website that is easy to navigate, that provides information about the game in video, image and text. There's simple navigations, clear contrast between the colors on the webpage and the background.
-![Mockup](docs/readme_images/mockupp.png)
+The intention is to provide a simple website that is easy to navigate, that provides information about the game in video, image and text. There's simple navigations, clear contrast between the colors on the webpage and the background. View the live site here [here](https://hujanen91.github.io/Code_Institute_Project_1/)
 
-## Header
+![Mockup](docs/readme_images/Mockup.png)
 
-The main element that you see when entering the website is a picture designed by Rockstar containing the image of 7 men walking on a row holding guns with the text "Rockstar games presents Red Dead Redemption 2" above them. You'll know immediatly what the website is going to be about. The image sits in the header tag.
-![Header](docs/readme_images/header.png)
+## Features
 
-## Navigation Bar
+### Site wide
 
-<!-- The navigation can be found at the top right of the logo with links to three different pages. The menu is simply constructed with a hover effect to clearly show which button you have the mouse over. 
+* Navigation Menu
+  * Contains links to the Home, The gang, Screenshots, Game map and Contact pages and will be responsive on all devices.
+  * This will allow users to easily navigate between the pages within the site on any size device.
 
-All pages have the same consistent theme, which makes it easy to see that only the content changes on the page you are on. The menu also makes it easy to navigate back and forth on the pages without having to click the back button.-->
+![Nav Menu](docs/readme_images/navigationbar.png)
+![Nav Menu](docs/readme_images/navbar-hover-effect.png)
 
-![Nav Bar](docs/readme_images/navbar.png)
 
-## Main - Landing Page
+* Header
+   * The main element that you see when entering the website is a picture designed by Rockstar containing the image of 7 men walking on a row holding guns with the text "Rockstar games presents Red Dead Redemption 2" above them. You'll know immediatly what the website is going to be about. The image sits in the header tag.
+![Header](docs/readme_images/header-img.png)
 
-<!-- - Brief short saummarized facts about the polar expedition to spark interest and a timeline.
-- The text contains general information about the idea, people and when the events took place.
-- The headings and paragraph are styled the same throughout the page to create a common thread.
-- Image is used in the middle to create a inviting index page.
-- The basic styling and code has been used from the [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/04-creating-the-club-ethos/05-club-ethos-icons) project.-->
-
-![Main](docs/readme_images/landingpage.png)
-
-## The Footer
-
-<!--  - Links to more detailed information pages such as Wikipedia, but also to various pages with more images from reliable sources.
-- The icons are meant to arouse curiosity and give a nice visual impression.
-- All links open in a new window. -->
+* Footer
+  * This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. The second part of the footer will contain contact information for 'Taco'.
+  * This will allow the user to follow 'Taco' on various social media where they can get more up to date information that may not be displayed on the website. The contact information will allow the user to contact 'Taco' directly.
 
 ![Footer](docs/readme_images/footer.png)
 
-# Pages and Features
-## Favicon
+* Favicon
+  * A site wide favicon will be implemented with the Hair O' The Dog clubs emblem.
+  * This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
 
-<!--  - Used an icon from [Icon 8](https://icons8.com/icons)
-- Favicon was created through [Favicon Converter](https://favicon.io/favicon-converter/)
-- The same favicon is used throughout every single page to make it easier for the user to recognize the website if they have other tabs open.-->
+![Favicon](docs/readme_images/android-chrome-192x192.png)
 
-## The Expedition
+* 404 Page
+  * A 404 page will be implemented and will display if a user navigates to a broken link.
+  * The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need  of the browsers back button.
 
-<!-- This page is for the user to be able to read more detailed information about the expedition in compact form. To break up long paragraphs, images are used to give a more relaxed visual impression. -->
+![404](docs/readme_images/404_page.JPG)
 
-![The Expedition](docs/readme_images/story.png)
+### Landing Page
 
-## The Gallery
+* Landing page image
+  * This will be a collection of favourite images from some of 'Taco's Travels. Images will change on a timer.
+  * This will help to immediately show the user what the website is about and help to animate the page.
 
-<!-- The gallery consists of a total of four images in a responsive design. The look is meant to give a retro feel with the polaroid frame and descriptive text. The images are also lined up according to the timeline with the first images showing the beginning of the project and the last image showing how the three men were discovered 33 years later after having gone missing. -->
+![Landing Page Image](docs/readme_images/landing_page_image.JPG)
 
-![Gallery](docs/readme_images/gallery.png)
+* Website information on 'Taco'
+  * Information about 'Taco' and the websites purpose including an image of 'Taco' on his travels.
+  * This information lets the user know what the site is about.
 
-## Contact Form
+![Bio](docs/readme_images/about_me.JPG)
 
-<!--  - The Contact page is intended to give the user an opportunity to send an email with feedback, questions or concerns about the website's content.
-- Simple and direct design.
-- Contains first name, last name, email and a textarea.
-- All fields are required.
-- When submitted the user will be sent to a different page stating the message has been received.-->
+* Contact form
+  * A contact form will be implemented to allow users to contact 'Taco'. The form will consist of the following fields and attributes:
+    * First Name (required, type=text)
+    * Last Name (required, type=text)
+    * Email (required, type=email)
+    * Message (required, type=textarea)
+  * On successful submission of the contact form, the user will be navigated to contact.html displaying a success message.
+  * This will allow user to contact 'Taco' if they have any queiries about travel destinations, charity events, club information or maybe to join him on some of his travels.
 
-![Contact Form](docs/readme_images/contact.png)
+![Contact Form](docs/readme_images/contact_form.JPG)
 
-![Submit](docs/readme_images/submit.png)
+![Contact Form Received](docs/readme_images/contact_form_received.JPG)
 
-# Features to implement
+### Gallery Page
 
-<!--  1. Develop the CSS for the gallery and add more images.
-2. Add Javascript to the contact form.
-3. Improve responsiveness even further.
-4. Sort out the Lighthouse issues - Cache control. -->
+* Gallery
+  * The gallery will provide the user with photos of 'Taco's Motorcycle adventures from various trips and charity events. The gallery will be fully     responsive on all devices and allows the user to filter by categories provided in a sub navigation.
+  * This will allow users that are interested in 'Taco's Travels to filter items based on the category they wish to be displayed. As the gallery is responsive it will allow the user to view content from any device.
 
-# Design
+![Gallery](docs/readme_images/gallery.JPG)
 
-## Wireframes
+### Adventures
 
-### Index Page
+* Adventure Summary
+  * Sections containing 2 photos of the trip, a paragraph about the trip and a link to the gallery page to see more photos.
+  * The sections will give the user an overview of the adventures that Taco has been on and the links will take the user to the gallery page where the user can view all the pictures that have been uplaoded for that trip.
 
-![Index](docs/readme_images/wireframe_index.png)
+![Adventure Summary](docs/readme_images/adventures_summary.JPG)
 
-### The Expedition
+* More details dropdown
+  * Hidden sections at the end of each Adventure Summary that will show a more detailed description of the trip which may include more details about longer trips and information about places visited along the way.
+  * These section will be hidden by default so that user can only see the summaries on the page when loaded but the user will have ability with this feature to click and view more details at the end of the summary. This will allow user to easily scroll through the page and only view details of trips that they want to read more about.
 
-![Story](docs/readme_images/wireframe_story.png)
+![Details Dropdown](docs/readme_images/details_dropdown.JPG)
 
-### Gallery
+### Existing Features
 
-![Gallery](docs/readme_images/wireframe_gallery.png)
+* Responsive design
+* Hidden interactive sections on adventure page
+* Responsive gallery with filtering
+* Contact form and success page
+* 3 Adventure trips and information
 
-### Contact
+### Features Left to Implement
 
-![Gallery](docs/readme_images/wireframe_contact.png)
+* As a future enhancement, the contact form will be updated with javascript to send an email to Taco with the contact information.
 
-# Testing
+* Google map interaction to be added to the Adventures page instead of screen shots of the map.
 
-<!--  - The website has been tested using the extension "Live Server" throughout the project.
-- Dev Tools has been used to check the responsiveness in different screen sizes.
-- The project has been tested in different browsers such as Chrome, IE Edge, Firefox, Safari and Opera. The only one not being able to load the page (and completely timed out) was Opera.
-- The site has also been deployed to Git Pages and regurlarly been checked for errors. -->
+## Design
 
-## Bugs
+### Wireframes
 
-<!--  - Had minor problems with positioning of different elements due to rookie mistakes. Solved by going through Code Institutes previous videos about Positioning and reading up on [W3Schools](https://w3schools.com) about 'Display', 'Positioning' and 'Margin'.
-- Had issues with GitHub not being able to show my images properly. Solved this by removing the first "/" in the file name.
-- Had issues with navigation bar disappearing when changing screen resolution. Changed 'Overflow: Hidden' to 'Overflow: Visible' instead.
-- Jigsaw showed 1 error consisting a faulty Float element. Sorted this out by changing it into 'margin: 0 auto;' instead.
-- HTML Validator showed 1 error regarding a script. Easily fixed by putting the script inside the body-tag. -->
+<br>
+Home page
+<br><br>
 
-## Unfixed Bugs
+![Home Page large screen](docs/readme_images/home_wireframe.JPG)
 
-- <!--Lighthouse issues such as cache control ie.. Did not have time to troubleshoot them due to submission but will look into them the next update. -->
+![Home Page small screen](docs/readme_images/home_mobile_wireframe.JPG)
+<br><br>
+Contact form successful submission page.
+<br><br>
+![Contact form submission success](docs/readme_images/contact_wireframe.JPG)
 
-### Navigation links, contact form and gallery
+![Contact form submission success](docs/readme_images/contact_mobile_wireframe.JPG)
 
-<!-- - Manually tested all navigation links on every page.
-- Manually tested opening the site in different browsers.
-- Tested to skip filling in the contact form - submit button did not work until I filled in the information properly, hence the 'required' attribute is working.
-- Came to the page 'submit.html' when filling in Contact Form and clicking on Submit.
-- Gallery - all images are showing and gallery is flexible depending on screen size. -->
+Adventures page
+<br><br>
+![Adventures page large screen](docs/readme_images/adventures_wireframe.JPG)
 
-## Validator Testing
+![Adventures page small screen](docs/readme_images/adventures_mobile_wireframe.JPG)
 
-### HTML - W3C validator
+Gallery page
+<br><br>
+![Gallery page large screen](docs/readme_images/gallery_wireframe.JPG)
 
-<!-- ![W3C Bug](docs/testing/W3Validator_fixed.png)
-No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frackstorm.github.io%2FCode-Institute_Project-1%2F) the second time. -->
+![Gallery page small screen](docs/readme_images/gallery_mobile.JPG)
 
-### CSS - Jigsaw Validator
+404 page
+<br><br>
+![Gallery page large screen](docs/readme_images/404_wireframe.JPG)
 
-<!-- ![W3C Bug](docs/testing/CSS_fixed.png)
-No errors were found when passing through the official [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frackstorm.github.io%2FCode-Institute_Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validator the second time. -->
+![Gallery page small screen](docs/readme_images/404_mobile_wireframe.JPG)
+<br><br><br><br>
 
-### Lighthouse
+## Technologies
 
-![W3C Bug](docs/testing/lighthouse.png)
+* HTML
+  * The structure of the Website was developed using HTML as the main language.
+* CSS
+  * The Website was styled using custom CSS in an external file.
+* Visual Studio Code
+  * The website was developed using Visual Studio Code IDE
+* GitHub
+  * Source code is hosted on GitHub and delpoyed using Git Pages.
+* Git
+  * Used to commit and push code during the development opf the Website
+* Font Awesome
+  * Icons obtained from <https://fontawesome.com/> were used as the Social media links in the footer section.
+* Tinyjpg
+  * <https://tinyjpg.com/> was used to reduce the size of the images used throughout the website
+* Favicon.io
+  * favicon files were created at <https://favicon.io/favicon-converter/>
+* balsamiq
+  * wireframes were created using balsamiq from <https://balsamiq.com/wireframes/desktop/#>
 
-<!-- - Received score 91/100.
-- Had some warnings and errors. -->
+## Testing
 
-![W3C Bug](docs/testing/lighthouse_issues.png)
+### Responsiveness
 
-### Wave
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
 
-<!-- Site has been tested at [Wave](https://wave.webaim.org/report#/https://rackstorm.github.io/Code-Institute_Project-1/) with good results. The only alert was that there is a
-redundant link to the index.html. This because both the logo and the Home-button shares the same url. -->
+Steps to test:
 
-# Technologies
+1. Open browser and navigate to [Tacos Travels](https://gareth-mcgirr.github.io/tacos-travels/)
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
 
-<!-- 
-- HTML is the main language of this project. CSS for styling in a separate file.
-- The IDE used has been Codeanywhere with Code Institutes template.
-- Git has been used to regularly adding, committing and pushing code to GitHub.
-- All code and assets have been stored at GitHub.
-- The project has been deployed through Git Pages.
-- Favicon Generator has been used for the Favicons.
-- Icon8 has been used for downloading the free favicon image.
-- Wireframes have been designed in Axure.-->
+Expected:
 
-# Deployment
+Website is responsive on all screen sizes and no images are pixelated or stretched.
+No horizontal scroll is present.
+No elements overlap.
 
-## Setting it up
+Actual:
 
-<!-- I have used Code Institute's instructional video on how to deploy my website. I have paused the video and followed the instructions. Text and steps below are copied from Code Institutes instructions on how to deploy the site to GitHub.
+Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in [Unfixed Bugs](#unfixed-bugs)
 
-**The site was deployed to GitHub pages. The steps to deploy are as follows:**
+Website was also opened on the following devices and no responsive issues were seen:
 
-1. In the GitHub repository, navigate to the Settings tab
-2. From the source section drop-down menu, select the Master Branch
-3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-4. The live link can be found here - <https://rackstorm.github.io/Code-Institute_Project-1/> -->
+* Oukitel C21 Pro
+* TCL 30 Pro
+* iPhone SE
+* Samsung Galaxy Tablet
 
-## Adding, committing and pushing code
+### Accessibility
 
-<!-- - All code has been pushed to the repository <https://github.com/Rackstorm/Code-Institute_Project-1>
-- All code has been regurlary added, committed and pushed throughout the project.
-- The commands being used are `git add <file>`,
-  `git commit -m “commit message”` and
-  `git push`
-- Due to being completely brand new into this tech world, the `git commit -m “commit message”` have gradually improved throughout this project since it was difficult for me to understand the importance of good logging in the beginning.-->
+[Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 
-# Credits
+Testing was focused to ensure the following criteria were met:
 
-<!-- 1. All informative text about the expedition come from [Wikipedia.org](https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition) - both Swedish and English page about the Arctic Balloon Expedition.
-2. The images are from and a [Polish History website](https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm)
+* All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
+* Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+* Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+* All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+* All not textual content had alternative text or titles so descriptions are read out to screen readers
+* HTML page lang attribute has been set
+* Aria properties have been implemented correctly
+* WCAG 2.1 Coding best practices being followed
 
-3. CSS styling of headings, paragraphs and the image in the center comes from the [Love Running project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode), as does the hero image code.
+Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
-4. Code for [gallery](https://www.w3schools.com/css/css_image_gallery.asp) and [nav bar](https://www.w3schools.com/css/css_navbar.asp) were taken from W3schools with own modification.
+Issue #1: Use of hidden check boxes and labels for the gallery filter and accordion on the gallery page were not accessible via the keyboard due to the property display: none;
 
-5. Images for the gallery were taken from [Wikipedia.org](https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition), the [Swedish Digital Museum](https://digitaltmuseum.se/) and a [Polish History website](https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm)
+Fix: I could not find a way to fix this issue with html and css alone so a tabindex of 0 was added to allow the label to be tabbed to and an onkeypress event to target and click the correct checkbox was implemented. Javascript code was taken from this [Mozilla Doc](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click)
 
-6. The icons in the footer were taken from [Font Awesome](https://fontawesome.com).
-7. The font was taken from Font Awesome. [Font Awesome](https://fontawesome.com)
-8. Styling of the [contact form](https://www.w3schools.com/css/css_form.asp) has been inspired by W3Schools. -->
+Issue #2: After keyboard controls were implemented, while testing the site with windows 'Narrator' screenreader, it was not clearly known what the purpose of the labels/checkboxes were. An aria-label label was added to the labels for screen readers to alert them that the labels were clickable and what their purpose was.
+
+### Lighthouse Testing
+
+![Home](docs/testing/index_lighthouse.JPG)
+
+![Gallery](docs/testing/gallery_lighthouse.JPG)
+
+![Adventures](docs/testing/adventures_lighthouse.JPG)
+
+### Functional Testing
+
+**Navigation Links**
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+| Navigation Link | Page to Load    |
+| --------------- | --------------- |
+| Home            | index.html      |
+| Aventures       | adventures.html |
+| Gallery         | gallery.html    |
+
+Links on all pages navigated to the correct pages as exptected.
+
+**Form Testing**
+
+The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+
+_Scenario One - Correct Inputs_
+
+Steps to test:
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Scroll down to the form and input the following data:
+   * First Name: John
+   * Last Name: Doe
+   * Email: doe.john@test.com
+   * Comment: This is a test.
+3. Click Submit
+4. User should be redirected to contact.html confirmation page
+
+Expected:
+
+Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
+
+Actual:
+
+Website behaved as expected with no errors or warnings and redirected to contact.html.
+
+_Scenario Two - Missing Required Field First Name_
+
+Steps to test:
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Scroll down to the form and input the following data:
+   * First Name:
+   * Last Name: Doe
+   * Email: doe.john@test.com
+   * Comment: This is a test.
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+_Scenario Three - Missing Required Field Last Name_
+
+Steps to test:
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Scroll down to the form and input the following data:
+   * First Name:John
+   * Last Name:
+   * Email: doe.john@test.com
+   * Comment: This is a test.
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+_Scenario Four - Missing Required Field Email_
+
+Steps to test:
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Scroll down to the form and input the following data:
+   * First Name:John
+   * Last Name: Doe
+   * Email:
+   * Comment: This is a test.
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+_Scenario Six - Incorrect email format_
+
+Steps to test:
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Scroll down to the form and input the following data:
+   * First Name:John
+   * Last Name: Doe
+   * Email: doe.johntest.com
+   * Comment: This is a test.
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that a valid email is required and the format it should be in.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+**Footer Social Media Icons / Links**
+
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
+
+Each item opened a new tab when clicked as expected and correct hover color was present.
+
+**Footer Contact Information**
+
+Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
+
+_Steps to test Telephone Number_
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Click the phone number in the footer (01 123 456 789)
+
+Expected:
+
+A window is opened asking which device you would like to call from.
+
+Actual:
+
+Behavior was as expected and the window presented me with the following option to call:
+
+* Oukitel Mobile Phone
+
+_Steps to test Email Link_
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Click the email address in the footer (taco@gmail.com)
+
+Expected:
+
+A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
+
+Actual:
+
+Behavior was as expected and my outlook application was opened ready to send an email to the target address.
+
+### Validator Testing
+
+* HTML
+  * No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+
+![Contact HTML Validator Results](docs/testing/contact_validator.JPG)
+
+![Avdentures HTML Validator Results](docs/testing/adventures_validator.JPG)
+
+![Home HTML Validator Results](docs/testing/home_validator.JPG)
+
+![Gallery HTML Validator Results](docs/testing/gallery_validator.JPG)
+
+![404 HTML Validator Results](docs/testing/404_validator.JPG)
+
+* CSS
+  * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+
+![CSS Validator Results](docs/testing/css_validator.JPG)
+
+### Unfixed Bugs
+
+Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
+
+## Deployment
+
+### Version Control
+
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+  * In the GitHub repository, navigate to the Settings tab
+  * From the menu on left select 'Pages'
+  * From the source section drop-down menu, select the Branch: main
+  * Click 'Save'
+  * A live link will be displayed in a green banner when published successfully.
+
+The live link can be found here - <https://gareth-mcgirr.github.io/tacos-travels/>
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+* Click on the code drop down button
+* Click on HTTPS
+* Copy the repository link to the clipboard
+* Open your IDE of choice (git must be installed for the next steps)
+* Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
+
+## Credits
+
+* [Accordion without javascript](https://supfort.com/pure-css-accordion-without-javascript)
+  * Code was used from this site to create the accordian effect on the adventures page sections for the hidden sections for each days travels. Styles were changed to suit styling on my Website.
+* [Youtube Gallery Filter Tutorial](https://www.youtube.com/watch?v=U-CujW5OlW0)
+  * Gallery page was created with inspiration from this video. I adapted code to use flexbox rather than css grid to make the page responsive on every device.
+
+### Content
+
+All content with the exception of those listed in the Media section of this document was owned by Hair O'The Dog club members Rocket and Taco. Permission was granted from Rocket to use the images.
+
+### Media
+
+Website Logo was created by my wife [Daisy McGirr](https://github.com/Daisy-McG) using Canva.
+
+Maps on the adventure page were from google maps timeline.

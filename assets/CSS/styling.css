@@ -160,6 +160,21 @@ q {
     padding: 25px 0 25px;
     text-align: center;  
 }
+/* Screenshots gallery styling */
+div.screenshots:hover {
+    opacity: 50%; 
+}
+
+div.screenshots img {
+    width: 100%;
+    height: auto;
+}
+
+.responsive {
+    padding: 1px;
+    float: left;
+    width: 100%
+}
 
 /* Contact form styling */
 input[type=text],
@@ -265,10 +280,12 @@ footer {
     height: 200px;
     width: 200px;}
 
-    .container {
+.container { 
     width: 50%;
     height: 100%;}
 
+.responsive {
+    width: 50% }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -353,6 +370,10 @@ footer {
     
     #gamemap iframe {
         height: 600px;
+    }
+
+    .responsive {
+        width: 33.33%;
     }
 
 }
