@@ -366,12 +366,13 @@ footer {
     }
     .thegang-right article {
         text-align: right;
-        
         padding: 40px 260px 40px 0
     }
 
     .thegang-left article {
-        
+        position: absolute;
+        padding-left: 260px;
+        width: 50%;
 
     }
 
@@ -385,6 +386,12 @@ footer {
     }
     .thegang-right h2 {
         text-align: right;
+    }
+
+    #thegang-left-last {
+        margin-bottom: 150px;
+
+    }
     }
     #gamemap iframe {
         height: 600px;
