@@ -135,7 +135,6 @@ q {
     font-size: 18px;
     font-style: italic;
     letter-spacing: 0.5px;
-
 }
 
 .thegang-left img, .thegang-right img {
@@ -144,7 +143,6 @@ q {
     border-radius: 50%;
     height: 150px;
     width: 150px;
-
 }
 
 .thegang-left p, .thegang-right p {
@@ -152,7 +150,7 @@ q {
 }
 
 /* Styling for gamemap */ 
-#gamemap{
+#gamemap {
     padding: 25px 0 25px;
     text-align: center;
 }
@@ -226,7 +224,6 @@ input[type=submit]:hover {
     background-color: #181818;
     padding: 20px;
     margin-bottom: 25px;
-    
 }
 
 #subject {
@@ -234,7 +231,6 @@ input[type=submit]:hover {
 }
 
 /* Footer styling */
-
 .back-to-top a{
     font-size: 75%;
     text-decoration: none;
@@ -260,7 +256,6 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
 }
-
 #footer-socials i {
     font-size: 200%;
     padding: 5%;
@@ -271,33 +266,35 @@ footer {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
-#navbar {
-    display: flex;}
+    #navbar {
+        display: flex;
+    }
 
-.title {
-    padding: 45px 0 15px}
-
-#aboutgame{
-    padding: 15px 150px 25px;}
-
-.thegang-left img, .thegang-right img{
-    height: 200px;
-    width: 200px;}
-
-.container { 
-    width: 50%;
-    height: 100%;}
-
-.responsive {
-    width: 50% }
+    .title {
+        padding: 45px 0 15px
+    }
+    #aboutgame {
+        padding: 15px 150px 25px;
+    }
+    .thegang-left img, .thegang-right img {
+        height: 200px;
+        width: 200px;
+    }
+    .container { 
+        width: 50%;
+        height: 100%;
+    }
+    .responsive {
+        width: 50% 
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     #aboutgame {
-            padding: 15px 200px 25px;
-        }
+        padding: 15px 200px 25px;
+    }
     .thegang-left img,
     .thegang-right img {
         height: 250px;
@@ -305,81 +302,73 @@ footer {
     }
     .container {
         width: 40%;
-        height: 100%;}
+        height: 100%;
+    }
 }
 
 /* Large devices (Laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
     #aboutgame {
-            padding: 15px 300px 25px;
-        }
+        padding: 15px 300px 25px;
+    }
 
     .gametrailer iframe {
-            height: 650px;
-        }
+        height: 650px;
+    }
 
     .thegang-left {
-            display: flex;
-            float: left;
-            width: 50%;
-            padding-left: 15px;
-            padding-right: 25px;
-        }
+        display: flex;
+        float: left;
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 25px;
+    }
     
     .thegang-right {
-            display: flex;
-            justify-content: right;
-            width: 50%;
-            text-align: left;
-            padding-right: 15px;
-            padding-left: 25px;
-            padding-bottom: 150px
-        }
+        display: flex;
+        justify-content: right;
+        width: 50%;
+        text-align: left;
+        padding-right: 15px;
+        padding-left: 25px;
+        padding-bottom: 150px
+    }
     
     .thegang-left img{
-            border-radius: 50%;
-        }
+        border-radius: 50%;
+    }
     
     .thegang-right img{
-            position: absolute;
-            right: 0;
-            margin-right: 15px;
-            border-radius: 50%;
-        }
-
+        position: absolute;
+        right: 0;
+        margin-right: 15px;
+        border-radius: 50%;
+    }
     .thegang-right img alt{
         padding-top: 50px;
     }
-
     .thegang-right span {
         text-align: right;
         padding: 40px 260px 40px 0
     }
-
     .thegang-left span {
         padding-top: 40px;
         padding-left: 10px;
-        text-align: left;
-       
+        text-align: left;   
     }
-
     .thegang-left h2 {
         text-align: left;
     }
-
     .thegang-right h2 {
         text-align: right;
     }
-    
     #gamemap iframe {
         height: 600px;
     }
-
     .responsive {
         width: 33.33%;
     }
-
 }
 
 /* Large devices (Laptops and desktops, 1200px and up */
@@ -390,15 +379,12 @@ footer {
     .gametrailer iframe {
         height: 750px;
     }
-
     #gamemap iframe {
         height: 800px;
     }
-
     .thegang-right {
         padding-left: 50px;
     }
-
     .thegang-left {
         padding-right: 50px;}
 }
