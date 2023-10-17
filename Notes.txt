@@ -11,3 +11,9 @@ Changed span to article
 
 2 Errors in themap.html due to width and height styled in html iframe link
 Styled in css instead.
+
+
+Wave alerts:
+
+index.html - alert due to embedded youtube video 
+
