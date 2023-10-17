@@ -2,3 +2,8 @@ CSS gradiant code from https://www.w3schools.com/css/css3_gradients.asp
 
 youtube video added with embedded code from youtube https://www.youtube.com/watch?v=eaW0tYpxyp0&t=64s
 
+Errors in html validation fixed:
+Removed width, height and frameborder specifics in html and styled it in css
+Removed stray end tags <i>
+
+

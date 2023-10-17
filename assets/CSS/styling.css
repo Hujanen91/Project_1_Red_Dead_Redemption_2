@@ -160,6 +160,13 @@ q {
     padding: 25px 0 25px;
     text-align: center;  
 }
+
+.gametrailer iframe {
+    width: 85%;
+    height: 550px;
+    border: 0;
+
+}
 /* Screenshots gallery styling */
 div.screenshots:hover {
     opacity: 50%; 
