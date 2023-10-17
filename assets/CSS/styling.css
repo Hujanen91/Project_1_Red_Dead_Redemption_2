@@ -355,11 +355,11 @@ footer {
     .thegang-right img alt{
         padding-top: 50px;
     }
-    .thegang-right span {
+    .thegang-right article {
         text-align: right;
         padding: 40px 260px 40px 0
     }
-    .thegang-left span {
+    .thegang-left  {
         padding-top: 40px;
         padding-left: 10px;
         text-align: left;   
