@@ -83,12 +83,9 @@ nav {
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-    box-shadow: inset 0 0 0 0 #800000;
-    color: #EBD8B7;
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    color: #EBD8B7;  
 }
+
 /* Effect styling for when hovering over links in navigation bar */
 #navbar a:hover {
     width: 100%;
