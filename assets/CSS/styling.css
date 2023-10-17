@@ -155,6 +155,12 @@ q {
     text-align: center;
 }
 
+#gamemap iframe {
+    height: 500px;
+    width: 85%;
+    border: 0;
+}
+
 /* Styling for game trailer on index.html */
 .gametrailer {
     padding: 25px 0 25px;
