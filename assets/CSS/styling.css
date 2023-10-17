@@ -87,6 +87,7 @@ nav {
 }
 
 /* Effect styling for when hovering over links in navigation bar */
+/* Code for marker-effect on hover, titles and contactform found here: https: //dev.to/shubhamjain/how-to-create-marker-highlight-effect-in-css-be4 */
 #navbar a:hover {
     width: 100%;
     background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=800000);
@@ -102,16 +103,18 @@ nav {
 
 /* Background-effect for every titel on the website. Credit to creator Shubham Jain  https://dev.to/shubhamjain/how-to-create-marker-highlight-effect-in-css-be4 */
 .highlight-titles {
-    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=800000);
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=800000); /* Marker effect */
     margin: -2px -6px;
     padding: 6px 15px;}
 
+/* Styling for the paragraph at index.html */
 #aboutgame {
     text-align: center;
     padding: 15px 50px 50px;
     font-size: 125%;
 }
 
+/* Styling for thegang.html  */
 .thegang-left {
     display: block;
     margin: 0 auto;
@@ -148,11 +151,13 @@ q {
     padding-top: 10px;
 }
 
+/* Styling for gamemap */ 
 #gamemap{
     padding: 25px 0 25px;
     text-align: center;
 }
 
+/* Styling for game trailer on index.html */
 .gametrailer {
     padding: 25px 0 25px;
     text-align: center;  
@@ -173,7 +178,7 @@ div.screenshots img {
     width: 100%
 }
 
-/* Contact form styling */
+/* Contact form styling. Html and css inspired from https://www.w3schools.com/ */
 input[type=text],
 input[type=email],
 select,
@@ -198,10 +203,11 @@ input[type=submit] {
     cursor: pointer;
 }
 
+/* Code for marker-effect on hover, titles and contactform found here: https: //dev.to/shubhamjain/how-to-create-marker-highlight-effect-in-css-be4 */
 form label {
     font-size: 20px;
     width: 100%;
-    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=800000);
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-2&color=800000);/* marker effect */
     margin: -2px -6px;
     padding: 6px 15px;
 }
@@ -209,6 +215,7 @@ form label {
 input[type=submit]:hover {
     background-color: #cc0000;
 }
+
 
 .container {
     width: 80%;
