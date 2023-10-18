@@ -22,79 +22,81 @@ The intention is to provide a simple website that is easy to navigate, that prov
 ![Header](docs/readme_images/header-img.png)
 
 * Footer
-  * This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. The second part of the footer will contain contact information for 'Taco'.
-  * This will allow the user to follow 'Taco' on various social media where they can get more up to date information that may not be displayed on the website. The contact information will allow the user to contact 'Taco' directly.
+  * This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels.
+  * This will allow the user to follow 'Rockstar Games' on various social media where they can get more up to date information that may not be displayed on the website.
 
 ![Footer](docs/readme_images/footer.png)
 
 * Favicon
-  * A site wide favicon will be implemented with the Hair O' The Dog clubs emblem.
+  * A site wide favicon will be implemented with Rockstar Games "R" logo that is colored red and designed specifically for the Red Dead Redemption 2 game.
   * This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
 
 ![Favicon](docs/readme_images/android-chrome-192x192.png)
 
-* 404 Page
-  * A 404 page will be implemented and will display if a user navigates to a broken link.
-  * The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need  of the browsers back button.
-
-![404](docs/readme_images/404_page.JPG)
 
 ### Landing Page
 
 * Landing page image
-  * This will be a collection of favourite images from some of 'Taco's Travels. Images will change on a timer.
+  * This will be a big image desinged for the game by Rockstar Games displaying the games name and a few of the characters.
   * This will help to immediately show the user what the website is about and help to animate the page.
 
-![Landing Page Image](docs/readme_images/landing_page_image.JPG)
+![Landing Page Image](docs/readme_images/header-img.png)
 
-* Website information on 'Taco'
-  * Information about 'Taco' and the websites purpose including an image of 'Taco' on his travels.
+* Information about the game to introduce the user to the game straight away.
+  * Gametrailer to give the user visual information about the game.
   * This information lets the user know what the site is about.
 
-![Bio](docs/readme_images/about_me.JPG)
+![Bio](docs/readme_images/main-landing-page.png)
+
+
+
+### The Gang
+
+* The Gang
+  * Divisions with articles containing images,subsections, quotes and paragraphs divided in two columns set to be positioned to the left and right of the page. Scaling it down will make the two columns merge in to one.
+  * The articles will display portraits of the gang members and give the user a quote from each carachter and information about each character.
+
+![The Gang](docs/readme_images/the-gang-page.png)
+![The Gang Responsive](docs/readme_images/thegang-responsive.png)
+
+### Game Map
+* An interactive map from the game
+  * Game map will provide the user with an embedded map from the game.
+  The map is also interactive to give the user the possibility to go explore the world of the game.
+  * The map can display different events, collectibles, animals etc and each icon can be hidden or displayed to make it easier to find what the user is looking for.
+  * The map is created by LordfiSh <https://reddeadredemption2map.de/c/#5/-67.867/-59.568>
+
+![Game Map](docs/readme_images/game-map.png)
+
+### Screenshots
+
+* A gallery for screenshots
+  * The Screenshots page will provide the user with a gallery of in-game photos taken by the creator of the page in gameplay. The screenshots gallery will be fully responsive on all devices and allows the user to click each image to open it in a new tab to get a bigger version of the image.
+  * This will allow users that are interested in Red Dead Redemption 2 to get a visual insight of the game and it's graphics.
+
+![Gallery](docs/readme_images/screenshots.png)
+
+### Contact
 
 * Contact form
-  * A contact form will be implemented to allow users to contact 'Taco'. The form will consist of the following fields and attributes:
+  * A contact form will be implemented to allow users to contact the creator of the Red Dead Redemption 2 page. The form will consist of the following fields and attributes:
     * First Name (required, type=text)
     * Last Name (required, type=text)
     * Email (required, type=email)
     * Message (required, type=textarea)
-  * On successful submission of the contact form, the user will be navigated to contact.html displaying a success message.
-  * This will allow user to contact 'Taco' if they have any queiries about travel destinations, charity events, club information or maybe to join him on some of his travels.
+  * On successful submission of the contact form, the user will be navigated to contact-thanks.html displaying a image and a thank you message.
+  * This will allow the user to contact the creator of Red Dead Redemption 2 if they have any questions or opinions about the website or the game.
 
-![Contact Form](docs/readme_images/contact_form.JPG)
-
-![Contact Form Received](docs/readme_images/contact_form_received.JPG)
-
-### Gallery Page
-
-* Gallery
-  * The gallery will provide the user with photos of 'Taco's Motorcycle adventures from various trips and charity events. The gallery will be fully     responsive on all devices and allows the user to filter by categories provided in a sub navigation.
-  * This will allow users that are interested in 'Taco's Travels to filter items based on the category they wish to be displayed. As the gallery is responsive it will allow the user to view content from any device.
-
-![Gallery](docs/readme_images/gallery.JPG)
-
-### Adventures
-
-* Adventure Summary
-  * Sections containing 2 photos of the trip, a paragraph about the trip and a link to the gallery page to see more photos.
-  * The sections will give the user an overview of the adventures that Taco has been on and the links will take the user to the gallery page where the user can view all the pictures that have been uplaoded for that trip.
-
-![Adventure Summary](docs/readme_images/adventures_summary.JPG)
-
-* More details dropdown
-  * Hidden sections at the end of each Adventure Summary that will show a more detailed description of the trip which may include more details about longer trips and information about places visited along the way.
-  * These section will be hidden by default so that user can only see the summaries on the page when loaded but the user will have ability with this feature to click and view more details at the end of the summary. This will allow user to easily scroll through the page and only view details of trips that they want to read more about.
-
-![Details Dropdown](docs/readme_images/details_dropdown.JPG)
+![Contact Form](docs/readme_images/contact-us.png)
+![Contact Form Received](docs/readme_images/contact_thankyou.png)
 
 ### Existing Features
 
 * Responsive design
-* Hidden interactive sections on adventure page
-* Responsive gallery with filtering
-* Contact form and success page
-* 3 Adventure trips and information
+* Trailer for the game
+* Responsive gallery
+* Contact form and 'Thank you for contacting us' page
+* 
 
 ### Features Left to Implement
 
