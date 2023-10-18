@@ -95,14 +95,17 @@ The intention is to provide a simple website that is easy to navigate, that prov
 * Responsive design
 * Trailer for the game
 * Responsive gallery
+* Interactive game map
 * Contact form and 'Thank you for contacting us' page
-* 
+* Socials in footer that opens in new tab
 
 ### Features Left to Implement
 
-* As a future enhancement, the contact form will be updated with javascript to send an email to Taco with the contact information.
-
-* Google map interaction to be added to the Adventures page instead of screen shots of the map.
+* More characters in The Gang with image, quote and description
+* More images in Screenshots gallery
+* Javascript to boost performance in Home and Game Map that has embedded links.
+* Create a way for the user to upload their own images from the game
+* More pages with more information about the game, tips and tricks, videos with gameplay, information about all the animals in game etc
 
 ## Design
 
@@ -112,33 +115,33 @@ The intention is to provide a simple website that is easy to navigate, that prov
 Home page
 <br><br>
 
-![Home Page large screen](docs/readme_images/home_wireframe.JPG)
+![Home page large screen](docs/readme_images/Index_Home-desktop.png)
+![Home page small screen](docs/readme_images/Index_Home_phone.png)
 
-![Home Page small screen](docs/readme_images/home_mobile_wireframe.JPG)
 <br><br>
-Contact form successful submission page.
+The Gang Page
 <br><br>
-![Contact form submission success](docs/readme_images/contact_wireframe.JPG)
 
-![Contact form submission success](docs/readme_images/contact_mobile_wireframe.JPG)
+![The Gang page large screen](docs/readme_images/The_gang_desktop.png)
+![The Gang page small screen](docs/readme_images/The_gang_Phone2.png)
 
-Adventures page
+Game Map page
 <br><br>
-![Adventures page large screen](docs/readme_images/adventures_wireframe.JPG)
 
-![Adventures page small screen](docs/readme_images/adventures_mobile_wireframe.JPG)
+![Game Map page large screen](docs/readme_images/Map_desktop.png)
+![Game Map page small screen](docs/readme_images/Map_phone.png)
 
-Gallery page
+Screenshots page
 <br><br>
-![Gallery page large screen](docs/readme_images/gallery_wireframe.JPG)
 
-![Gallery page small screen](docs/readme_images/gallery_mobile.JPG)
+![Screenshots page large screen](docs/readme_images/Screens_desktop.png)
+![Screenshots page small screen](docs/readme_images/Screens_Phone.png)
 
-404 page
+Contact page
 <br><br>
-![Gallery page large screen](docs/readme_images/404_wireframe.JPG)
 
-![Gallery page small screen](docs/readme_images/404_mobile_wireframe.JPG)
+![Contact page large screen](docs/readme_images/Contact.png)
+![Contact page small screen](docs/readme_images/Contact_phone.png)
 <br><br><br><br>
 
 ## Technologies
