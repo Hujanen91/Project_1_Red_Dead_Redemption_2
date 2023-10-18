@@ -17,3 +17,8 @@ Wave alerts:
 
 index.html - alert due to embedded youtube video 
 
+Lighthouse failure/fixes:
+
+gamemap.html - due to the embedded link to an interactive map lighthouse gives failures that can't be fixed from my side.
+Lighthouse also tells me to use HTTP/2 for the embedded game map and this is again out of my reach.
+It also gives me fixes such as changing the size of my header. The header img has been resized, converted and compressed, it wouldn't look good to resize it even more.
