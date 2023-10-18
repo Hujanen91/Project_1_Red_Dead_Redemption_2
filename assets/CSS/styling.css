@@ -329,8 +329,7 @@ footer {
     }
     .thegang-left img{
         border-radius: 50%;
-        margin-left: 15px;
-        padding-right: 15px;
+        margin-left: 15px; 
     }
     .thegang-right img{
         position: absolute;
@@ -348,7 +347,7 @@ footer {
     }
     .thegang-left article {
         position: absolute;
-        padding-left: 260px;
+        padding-left: 275px;
         width: 50%;
     }
     .thegang-left  {
