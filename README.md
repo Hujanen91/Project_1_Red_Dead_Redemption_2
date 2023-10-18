@@ -263,7 +263,7 @@ Steps to test:
    * Email: doe.john@test.com
    * Comment: This is a test.
 3. Click Submit
-4. User should be redirected to contact.html confirmation page
+4. User should be redirected to contact-thanks.html confirmation page
 
 Expected:
 
@@ -277,7 +277,7 @@ _Scenario Two - Missing Required Field First Name_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Code_Institute_Project_1/contact.html)
 2. Scroll down to the form and input the following data:
    * First Name:
    * Last Name: Doe
@@ -297,7 +297,7 @@ _Scenario Three - Missing Required Field Last Name_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Code_Institute_Project_1/contact.html)
 2. Scroll down to the form and input the following data:
    * First Name:John
    * Last Name:
@@ -317,7 +317,7 @@ _Scenario Four - Missing Required Field Email_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Code_Institute_Project_1/contact.html)
 2. Scroll down to the form and input the following data:
    * First Name:John
    * Last Name: Doe
@@ -337,7 +337,7 @@ _Scenario Six - Incorrect email format_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Code_Institute_Project_1/contact.html)
 2. Scroll down to the form and input the following data:
    * First Name:John
    * Last Name: Doe
@@ -355,56 +355,37 @@ Website behaved as expected, error message was displayed and the form did not su
 
 **Footer Social Media Icons / Links**
 
-Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab.
 
-Each item opened a new tab when clicked as expected and correct hover color was present.
-
-**Footer Contact Information**
-
-Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
-
-_Steps to test Telephone Number_
-
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Click the phone number in the footer (01 123 456 789)
-
-Expected:
-
-A window is opened asking which device you would like to call from.
-
-Actual:
-
-Behavior was as expected and the window presented me with the following option to call:
-
-* Oukitel Mobile Phone
-
-_Steps to test Email Link_
-
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Click the email address in the footer (taco@gmail.com)
-
-Expected:
-
-A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
-
-Actual:
-
-Behavior was as expected and my outlook application was opened ready to send an email to the target address.
+Each item opened a new tab when clicked.
 
 ### Validator Testing
 
 * HTML
-  * No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+  * Few errors of basic mistakes was found when putting the code through the validator. [W3C validator](https://validator.w3.org)
+<br> 
 
-![Contact HTML Validator Results](docs/testing/contact_validator.JPG)
+* Home Validator Results
+![Home HTML Validator Results](docs/testing/W3_validator_errors.png)
+  * Removed Stray end tags, removed "as" attribute in stylesheet, changed % to digits in iframe and corrected the height. Removed frameboard and styled it with css instead.
+  * After removing errors the code validated without errors:
+  ![Home HTML Validator Results](docs/testing/index-validation-html.png)
+  
+* The Gang Validator Results
+![The Gang HTML Validator Results](docs/testing/thegang_ERROR_span.png)
+  * Changed span to artical instead and that solved the problem
+![The Gang HTML Validator Results](docs/testing/thegang_fixed_error.png)
 
-![Avdentures HTML Validator Results](docs/testing/adventures_validator.JPG)
+* Game Map Validator Results
+![Game map HTML Validator Results](docs/testing/gamemap_error.png)
+  * Removed width and height attributes and styled them in css instead.
+  ![Game map HTML Validator Results](docs/testing/gamemapt_fixed_error.png)
 
-![Home HTML Validator Results](docs/testing/home_validator.JPG)
+![Screens HTML Validator Results](docs/testing/gallery_validator.JPG)
 
-![Gallery HTML Validator Results](docs/testing/gallery_validator.JPG)
+![Contact HTML Validator Results](docs/testing/404_validator.JPG)
 
-![404 HTML Validator Results](docs/testing/404_validator.JPG)
+![Contact-thanks HTML Validator Results](docs/testing/404_validator.JPG)
 
 * CSS
   * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
