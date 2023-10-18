@@ -407,13 +407,13 @@ Each item opened a new tab when clicked.
 * The Screenshots gallery had issues in the beginning not working as I wanted it to, after going through different possible solutions I managed to make it work.
 * The navigation bar didn't show in Mozilla Firefox but after moving the nav containing the navitation bar to sit outside and right under header instead of inside the header. This fixed the problem in Mozilla Firefox without changing anything in the other browsers.
 * A white line that I didn't seem to be able to get rid off. Managed to solve it by giving the body a background-color.
-* The video in index.html was not being as responsive as I wanted it to be. Eventually I realized needed to change desired width to 100% and height to a desired amount in iframe tag.
+* The video in index.html was not being as responsive as I wanted it to be. Eventually I realized I needed to change desired width to 100% and height to a desired amount in iframe tag.
 * The gang: Had trouble getting the pictures in the right div to align good with the text for said pictures. Eventually realized it was padding-right that was needed.
 
 
 ### Unfixed Bugs
 
-Responsiveness of the website worked on all devices, screen sizes and orientation. The only issue was in mozilla firefox where the brush effect didn't apply as expected. I tried simple fixes like changing padding etc but didn't get the results I wanted.
+Responsiveness of the website worked on all devices, screen sizes and orientation. The only issue was in mozilla firefox where the brush effect didn't apply as expected on h1 and h2 titles. I tried simple fixes like changing padding etc but didn't get the results I wanted.that would work both on other browsers and on Mozilla Firefox.
 
 ## Deployment
 
@@ -452,10 +452,4 @@ The live link can be found here - <https://hujanen91.github.io/Code_Institute_Pr
 
 ### Content
 
-
-
-### Media
-
-Website Logo was created by my wife [Daisy McGirr](https://github.com/Daisy-McG) using Canva.
-
-Maps on the adventure page were from google maps timeline.
+All the images on the Screenshots page is taken by me [Jennifer Hujanen](https://github.com/Hujanen91) during gameplay of Rockstar Games Red Dead Redemption 2.
