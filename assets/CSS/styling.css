@@ -293,6 +293,10 @@ footer {
         height: 200px;
         width: 200px;
     }
+    .thegang-left article, .thegang-right article{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
     .container { 
         width: 50%;
         height: 100%;
