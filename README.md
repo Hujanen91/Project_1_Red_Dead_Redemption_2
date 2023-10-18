@@ -44,6 +44,7 @@ The intention is to provide a simple website that is easy to navigate, that prov
 
 * Information about the game to introduce the user to the game straight away.
   * Gametrailer to give the user visual information about the game.
+  * Gametrailer is from youtube and Rockstar Games youtube account: <https://www.youtube.com/watch?v=eaW0tYpxyp0>
   * This information lets the user know what the site is about.
 
 ![Bio](docs/readme_images/main-landing-page.png)
@@ -150,16 +151,18 @@ Contact page
   * The structure of the Website was developed using HTML as the main language.
 * CSS
   * The Website was styled using custom CSS in an external file.
-* Visual Studio Code
-  * The website was developed using Visual Studio Code IDE
+* Codeanywhere
+  * The website was developed using Codeanywhere
 * GitHub
   * Source code is hosted on GitHub and delpoyed using Git Pages.
 * Git
-  * Used to commit and push code during the development opf the Website
+  * Used to commit and push code during the development of the Website
 * Font Awesome
   * Icons obtained from <https://fontawesome.com/> were used as the Social media links in the footer section.
-* Tinyjpg
-  * <https://tinyjpg.com/> was used to reduce the size of the images used throughout the website
+* Pixillion Image Converter
+  * Pixillion Image Converter was installed on my computer and used to convert images to .webp
+* TinyPNG
+  * <https://tinypng.com/> was used to reduce the size of the images used throughout the website
 * Favicon.io
   * favicon files were created at <https://favicon.io/favicon-converter/>
 * balsamiq
@@ -173,7 +176,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 Steps to test:
 
-1. Open browser and navigate to [Tacos Travels](https://gareth-mcgirr.github.io/tacos-travels/)
+1. Open browser and navigate to [Red Dead Redemption 2](https://hujanen91.github.io/Code_Institute_Project_1/)
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Set the zoom to 50%
@@ -187,14 +190,14 @@ No elements overlap.
 
 Actual:
 
-Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in [Unfixed Bugs](#unfixed-bugs)
+Website behaved as expected on every browser and on different devices with the exception of Mozilla Firefox where the navbar was hidden and the brush effect on the titles didn't work as expected [Unfixed Bugs](#unfixed-bugs)
 
 Website was also opened on the following devices and no responsive issues were seen:
 
-* Oukitel C21 Pro
-* TCL 30 Pro
-* iPhone SE
-* Samsung Galaxy Tablet
+* Iphone 13 mini
+* Google Pixel 8 pro
+* Samsung Galaxy S23 ultra
+* Samsung Galaxy S7 Tablet
 
 ### Accessibility
 
@@ -406,7 +409,7 @@ Behavior was as expected and my outlook application was opened ready to send an 
 
 ### Unfixed Bugs
 
-Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
+Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
 
 ## Deployment
 
