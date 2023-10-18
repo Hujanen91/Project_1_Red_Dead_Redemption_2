@@ -16,23 +16,24 @@ The intention is to provide a simple website that is easy to navigate, that prov
 ![Nav Menu](docs/readme_images/navigationbar.png)
 ![Nav Menu](docs/readme_images/navbar-hover-effect.png)
 
-
 * Header
-   * The main element that you see when entering the website is a picture designed by Rockstar containing the image of 7 men walking on a row holding guns with the text "Rockstar games presents Red Dead Redemption 2" above them. You'll know immediatly what the website is going to be about. The image sits in the header tag.
+  
+  * The main element that you see when entering the website is a picture designed by Rockstar containing the image of 7 men walking on a row holding guns with the text "Rockstar games presents Red Dead Redemption 2" above them. You'll know immediatly what the website is going to be about. The image sits in the header tag.
 ![Header](docs/readme_images/header-img.png)
 
 * Footer
+
   * This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels.
   * This will allow the user to follow 'Rockstar Games' on various social media where they can get more up to date information that may not be displayed on the website.
 
 ![Footer](docs/readme_images/footer.png)
 
 * Favicon
+
   * A site wide favicon will be implemented with Rockstar Games "R" logo that is colored red and designed specifically for the Red Dead Redemption 2 game.
   * This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
 
 ![Favicon](docs/readme_images/android-chrome-192x192.png)
-
 
 ### Landing Page
 
@@ -49,11 +50,10 @@ The intention is to provide a simple website that is easy to navigate, that prov
 
 ![Bio](docs/readme_images/main-landing-page.png)
 
-
-
 ### The Gang
 
 * The Gang
+  
   * Divisions with articles containing images,subsections, quotes and paragraphs divided in two columns set to be positioned to the left and right of the page. Scaling it down will make the two columns merge in to one.
   * The articles will display portraits of the gang members and give the user a quote from each carachter and information about each character.
 
@@ -61,7 +61,9 @@ The intention is to provide a simple website that is easy to navigate, that prov
 ![The Gang Responsive](docs/readme_images/thegang-responsive.png)
 
 ### Game Map
+
 * An interactive map from the game
+  
   * Game map will provide the user with an embedded map from the game.
   The map is also interactive to give the user the possibility to go explore the world of the game.
   * The map can display different events, collectibles, animals etc and each icon can be hidden or displayed to make it easier to find what the user is looking for.
@@ -72,6 +74,7 @@ The intention is to provide a simple website that is easy to navigate, that prov
 ### Screenshots
 
 * A gallery for screenshots
+  
   * The Screenshots page will provide the user with a gallery of in-game photos taken by the creator of the page in gameplay. The screenshots gallery will be fully responsive on all devices and allows the user to click each image to open it in a new tab to get a bigger version of the image.
   * This will allow users that are interested in Red Dead Redemption 2 to get a visual insight of the game and it's graphics.
 
@@ -80,6 +83,7 @@ The intention is to provide a simple website that is easy to navigate, that prov
 ### Contact
 
 * Contact form
+  
   * A contact form will be implemented to allow users to contact the creator of the Red Dead Redemption 2 page. The form will consist of the following fields and attributes:
     * First Name (required, type=text)
     * Last Name (required, type=text)
@@ -112,38 +116,30 @@ The intention is to provide a simple website that is easy to navigate, that prov
 
 ### Wireframes
 
-<br>
 Home page
-<br><br>
 
 ![Home page large screen](docs/readme_images/Index_Home-desktop.png)
 ![Home page small screen](docs/readme_images/Index_Home_phone.png)
 
-<br><br>
 The Gang Page
-<br><br>
 
 ![The Gang page large screen](docs/readme_images/The_gang_desktop.png)
 ![The Gang page small screen](docs/readme_images/The_gang_Phone2.png)
 
 Game Map page
-<br><br>
 
 ![Game Map page large screen](docs/readme_images/Map_desktop.png)
 ![Game Map page small screen](docs/readme_images/Map_phone.png)
 
 Screenshots page
-<br><br>
 
 ![Screenshots page large screen](docs/readme_images/Screens_desktop.png)
 ![Screenshots page small screen](docs/readme_images/Screens_Phone.png)
 
 Contact page
-<br><br>
 
 ![Contact page large screen](docs/readme_images/Contact.png)
 ![Contact page small screen](docs/readme_images/Contact_phone.png)
-<br><br><br><br>
 
 ## Technologies
 
@@ -224,22 +220,21 @@ Screenreader seems to have no bigger issues reading the website.
 ![The Gang](docs/testing/lighthouse-thegang.png)
 
 ![Game Map](docs/testing/lighthouse-gamemap.png)
-* Lower performance due to the embedded link, cache and issues from the linked map, 
+
+* Lower performance due to the embedded link, cache and issues from the linked map,
 ![Game Map](docs/testing/lighthouse-gamemap-performance-failure.png)
 
 ![Screenshots](docs/testing/lighthouse-screens.png)
+
 * Screens lower perfomance is due to images being a little bit bigger. I didn't want to resize and compress the images further and loose the quality.
-<br>
-<br>
 
 ![Contact](docs/testing/lighthouse-contact.png)
 
 ![Contact Thanks](docs/testing/lighthouse-contactthanks.png)
 
-
 ### Functional Testing
 
-**Navigation Links**
+#### Navigation Links
 
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
 
@@ -253,11 +248,11 @@ Testing was performed to ensure all navigation links on the respective pages, na
 
 Links on all pages navigated to the correct pages as exptected.
 
-**Form Testing**
+#### Form Testing
 
 The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
 
-_Scenario One - Correct Inputs_
+#### Scenario One - Correct Inputs
 
 Steps to test:
 
@@ -278,7 +273,7 @@ Actual:
 
 Website behaved as expected with no errors or warnings and redirected to contact.html.
 
-_Scenario Two - Missing Required Field First Name_
+#### Scenario Two - Missing Required Field First Name
 
 Steps to test:
 
@@ -298,7 +293,7 @@ Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
 
-_Scenario Three - Missing Required Field Last Name_
+#### Scenario Three - Missing Required Field Last Name
 
 Steps to test:
 
@@ -318,7 +313,7 @@ Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
 
-_Scenario Four - Missing Required Field Email_
+#### Scenario Four - Missing Required Field Email
 
 Steps to test:
 
@@ -338,7 +333,7 @@ Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
 
-_Scenario Six - Incorrect email format_
+#### Scenario Six - Incorrect email format
 
 Steps to test:
 
@@ -358,7 +353,7 @@ Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
 
-**Footer Social Media Icons / Links**
+#### Footer Social Media Icons / Links
 
 Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab.
 
@@ -368,7 +363,6 @@ Each item opened a new tab when clicked.
 
 * HTML
   * Few errors of basic mistakes was found when putting the code through the validator. [W3C validator](https://validator.w3.org)
-<br> 
 
 * Home Validator Results
 ![Home HTML Validator Results](docs/testing/W3_validator_errors.png)
@@ -403,13 +397,13 @@ Each item opened a new tab when clicked.
 ![CSS Validator Results](docs/testing/css_validation.png)
 
 ### Bugs
+
 * Had issues with GitHub not being able to show my images properly. Solved this by removing the first "/" in the file name.
 * The Screenshots gallery had issues in the beginning not working as I wanted it to, after going through different possible solutions I managed to make it work.
 * The navigation bar didn't show in Mozilla Firefox but after moving the nav containing the navitation bar to sit outside and right under header instead of inside the header. This fixed the problem in Mozilla Firefox without changing anything in the other browsers.
 * A white line that I didn't seem to be able to get rid off. Managed to solve it by giving the body a background-color.
 * The video in index.html was not being as responsive as I wanted it to be. Eventually I realized I needed to change desired width to 100% and height to a desired amount in iframe tag.
 * The gang: Had trouble getting the pictures in the right div to align good with the text for said pictures. Eventually realized it was padding-right that was needed.
-
 
 ### Unfixed Bugs
 
