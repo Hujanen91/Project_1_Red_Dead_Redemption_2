@@ -190,7 +190,7 @@ No elements overlap.
 
 Actual:
 
-Website behaved as expected on every browser and on different devices with the exception of Mozilla Firefox where the navbar was hidden and the brush effect on the titles didn't work as expected [Unfixed Bugs](#unfixed-bugs)
+Website behaved as expected on every browser and on different devices with the exception of Mozilla Firefox where the brush effect didn't apply as expected [Unfixed Bugs](#unfixed-bugs)
 
 Website was also opened on the following devices and no responsive issues were seen:
 
@@ -214,21 +214,23 @@ Testing was focused to ensure the following criteria were met:
 * Aria properties have been implemented correctly
 * WCAG 2.1 Coding best practices being followed
 
-Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
-
-Issue #1: Use of hidden check boxes and labels for the gallery filter and accordion on the gallery page were not accessible via the keyboard due to the property display: none;
-
-Fix: I could not find a way to fix this issue with html and css alone so a tabindex of 0 was added to allow the label to be tabbed to and an onkeypress event to target and click the correct checkbox was implemented. Javascript code was taken from this [Mozilla Doc](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click)
-
-Issue #2: After keyboard controls were implemented, while testing the site with windows 'Narrator' screenreader, it was not clearly known what the purpose of the labels/checkboxes were. An aria-label label was added to the labels for screen readers to alert them that the labels were clickable and what their purpose was.
+Manual tests were also performed to ensure the website was accessible as possible.
+Screenreader seems to have no bigger issues reading the website.
 
 ### Lighthouse Testing
 
-![Home](docs/testing/index_lighthouse.JPG)
+![Home](docs/readme_images/lighthouse-index2.png)
 
-![Gallery](docs/testing/gallery_lighthouse.JPG)
+![The Gang](docs/readme_images/lighthouse-thegang.png)
 
-![Adventures](docs/testing/adventures_lighthouse.JPG)
+![Game Map](docs/readme_images/lighthouse-gamemap.png)
+
+![Screenshots](docs/readme_images/lighthouse-screens.png)
+
+![Contact](docs/readme_images/lighthouse-contact.png)
+
+![Contact Thanks](docs/readme_images/lighthouse-contactthanks.png)
+
 
 ### Functional Testing
 
@@ -239,8 +241,10 @@ Testing was performed to ensure all navigation links on the respective pages, na
 | Navigation Link | Page to Load    |
 | --------------- | --------------- |
 | Home            | index.html      |
-| Aventures       | adventures.html |
-| Gallery         | gallery.html    |
+| The Gang        | thegang.html    |
+| Game Map        | gamemap.html    |
+| Screenshots     | screens.html    |
+| Contact         | contact.html    |
 
 Links on all pages navigated to the correct pages as exptected.
 
@@ -252,7 +256,7 @@ _Scenario One - Correct Inputs_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Code_Institute_Project_1/contact.html)
 2. Scroll down to the form and input the following data:
    * First Name: John
    * Last Name: Doe
@@ -409,7 +413,7 @@ Behavior was as expected and my outlook application was opened ready to send an 
 
 ### Unfixed Bugs
 
-Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
+Responsiveness of the website worked on all devices, screen sizes and orientation. The only issue was in mozilla firefox where the brush effect didn't apply as expected. I tried simple fixes like changing padding etc but didn't get the results I wanted.
 
 ## Deployment
 
