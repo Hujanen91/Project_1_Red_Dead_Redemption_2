@@ -119,7 +119,7 @@ nav {
     display: block;
     margin: 0 auto;
     text-align: center;
-    padding: 15px 15px;
+    padding: 15px 40px;
     font-size: 20px;
 }
 
@@ -127,7 +127,7 @@ nav {
     display: block;
     margin: 0 auto;
     text-align: center;
-    padding: 15px 15px;
+    padding: 15px 40px;
     font-size: 20px;
 }
 
@@ -390,9 +390,8 @@ footer {
 
     #thegang-left-last {
         margin-bottom: 150px;
-
     }
-    }
+    
     #gamemap iframe {
         height: 600px;
     }
@@ -400,6 +399,7 @@ footer {
         width: 33.33%;
     }
 }
+
 
 /* Large devices (Laptops and desktops, 1200px and up */
 @media screen and (min-width: 1200px) {
