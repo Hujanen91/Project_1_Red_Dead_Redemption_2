@@ -219,17 +219,22 @@ Screenreader seems to have no bigger issues reading the website.
 
 ### Lighthouse Testing
 
-![Home](docs/readme_images/lighthouse-index2.png)
+![Home](docs/testing/lighthouse-index2.png)
 
-![The Gang](docs/readme_images/lighthouse-thegang.png)
+![The Gang](docs/testing/lighthouse-thegang.png)
 
-![Game Map](docs/readme_images/lighthouse-gamemap.png)
+![Game Map](docs/testing/lighthouse-gamemap.png)
+* Lower performance due to the embedded link, cache and issues from the linked map, 
+![Game Map](docs/testing/lighthouse-gamemap-performance-failure.png)
 
-![Screenshots](docs/readme_images/lighthouse-screens.png)
+![Screenshots](docs/testing/lighthouse-screens.png)
+* Screens lower perfomance is due to images being a little bit bigger. I didn't want to resize and compress the images further and loose the quality.
+<br>
+<br>
 
-![Contact](docs/readme_images/lighthouse-contact.png)
+![Contact](docs/testing/lighthouse-contact.png)
 
-![Contact Thanks](docs/readme_images/lighthouse-contactthanks.png)
+![Contact Thanks](docs/testing/lighthouse-contactthanks.png)
 
 
 ### Functional Testing
@@ -381,16 +386,30 @@ Each item opened a new tab when clicked.
   * Removed width and height attributes and styled them in css instead.
   ![Game map HTML Validator Results](docs/testing/gamemapt_fixed_error.png)
 
-![Screens HTML Validator Results](docs/testing/gallery_validator.JPG)
+* Screens Validator Results
+![Screens HTML Validator Results](docs/testing/screenshots_validated.png)
 
-![Contact HTML Validator Results](docs/testing/404_validator.JPG)
+* Contact Validator Results
+![Contact HTML Validator Results](docs/testing/contact_validated.png)
 
-![Contact-thanks HTML Validator Results](docs/testing/404_validator.JPG)
+* Contact-thanks Validator Results
+![Contact-thanks HTML Validator Results](docs/testing/contact_thanks_error.png)
+  * Removed space in img src, added an alt attribute to the image, and closed section that was still open.
+  ![Contact-thanks HTML Validator Results](docs/testing/contact_thanks_error_fixed.png)
 
 * CSS
   * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
 
-![CSS Validator Results](docs/testing/css_validator.JPG)
+![CSS Validator Results](docs/testing/css_validation.png)
+
+### Bugs
+* Had issues with GitHub not being able to show my images properly. Solved this by removing the first "/" in the file name.
+* The Screenshots gallery had issues in the beginning not working as I wanted it to, after going through different possible solutions I managed to make it work.
+* The navigation bar didn't show in Mozilla Firefox but after moving the nav containing the navitation bar to sit outside and right under header instead of inside the header. This fixed the problem in Mozilla Firefox without changing anything in the other browsers.
+* A white line that I didn't seem to be able to get rid off. Managed to solve it by giving the body a background-color.
+* The video in index.html was not being as responsive as I wanted it to be. Eventually I realized needed to change desired width to 100% and height to a desired amount in iframe tag.
+* The gang: Had trouble getting the pictures in the right div to align good with the text for said pictures. Eventually realized it was padding-right that was needed.
+
 
 ### Unfixed Bugs
 
@@ -400,7 +419,7 @@ Responsiveness of the website worked on all devices, screen sizes and orientatio
 
 ### Version Control
 
-The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+The site was created using the Codeanywhere editor and pushed to github to the remote repository ‘Code_Institute_Project_1’.
 
 The following git commands were used throughout development to push code to the remote repo:
 
@@ -419,30 +438,21 @@ The following git commands were used throughout development to push code to the 
   * Click 'Save'
   * A live link will be displayed in a green banner when published successfully.
 
-The live link can be found here - <https://gareth-mcgirr.github.io/tacos-travels/>
-
-### Clone the Repository Code Locally
-
-Navigate to the GitHub Repository you want to clone to use locally:
-
-* Click on the code drop down button
-* Click on HTTPS
-* Copy the repository link to the clipboard
-* Open your IDE of choice (git must be installed for the next steps)
-* Type git clone copied-git-url into the IDE terminal
-
-The project will now of been cloned on your local machine for use.
+The live link can be found here - <https://hujanen91.github.io/Code_Institute_Project_1/>
 
 ## Credits
 
-* [Accordion without javascript](https://supfort.com/pure-css-accordion-without-javascript)
-  * Code was used from this site to create the accordian effect on the adventures page sections for the hidden sections for each days travels. Styles were changed to suit styling on my Website.
-* [Youtube Gallery Filter Tutorial](https://www.youtube.com/watch?v=U-CujW5OlW0)
-  * Gallery page was created with inspiration from this video. I adapted code to use flexbox rather than css grid to make the page responsive on every device.
+* [Title Marker Effekt](https://dev.to/shubhamjain/how-to-create-marker-highlight-effect-in-css-be4) by Shubham Jain
+* [Youtube Game Trailer](https://www.youtube.com/watch?v=eaW0tYpxyp0&t=64s)
+
+* [Interactive Map in Game Map](https://reddeadredemption2map.de/c/#4/-68.32/-53.83)
+* Images used in The Gang and header are downloaded from [Rockstar Games Download page](https://www.rockstargames.com/reddeadredemption2/downloads)
+  * Images from Download at Rockstar Games webpage is free to download and use as long as it's non-commercial.
+* [Gallery-layout](https://www.w3schools.com/css/css_image_gallery.asp) was inspired from W3Schools.
 
 ### Content
 
-All content with the exception of those listed in the Media section of this document was owned by Hair O'The Dog club members Rocket and Taco. Permission was granted from Rocket to use the images.
+
 
 ### Media
 
