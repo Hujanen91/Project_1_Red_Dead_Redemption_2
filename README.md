@@ -38,7 +38,7 @@ The intention is to provide a simple website that is easy to navigate, that prov
 ### Landing Page
 
 * Landing page image
-  * This will be a big image desinged for the game by Rockstar Games displaying the games name and a few of the characters.
+  * This will be a big image designed for the game by Rockstar Games displaying the games name and a few of the characters.
   * This will help to immediately show the user what the website is about and help to animate the page.
 
 ![Landing Page Image](docs/readme_images/header-img.png)
@@ -55,7 +55,7 @@ The intention is to provide a simple website that is easy to navigate, that prov
 * The Gang
   
   * Divisions with articles containing images,subsections, quotes and paragraphs divided in two columns set to be positioned to the left and right of the page. Scaling it down will make the two columns merge in to one.
-  * The articles will display portraits of the gang members and give the user a quote from each carachter and information about each character.
+  * The articles will display portraits of the gang members and give the user a quote from each character and information about each character.
 
 ![The Gang](docs/readme_images/the-gang-page.png)
 ![The Gang Responsive](docs/readme_images/thegang-responsive.png)
@@ -400,7 +400,7 @@ Each item opened a new tab when clicked.
 
 * Had issues with GitHub not being able to show my images properly. Solved this by removing the first "/" in the file name.
 * The Screenshots gallery had issues in the beginning not working as I wanted it to, after going through different possible solutions I managed to make it work.
-* The navigation bar didn't show in Mozilla Firefox but after moving the nav containing the navitation bar to sit outside and right under header instead of inside the header. This fixed the problem in Mozilla Firefox without changing anything in the other browsers.
+* The navigation bar didn't show in Mozilla Firefox but after moving the nav containing the navigation bar to sit outside and right under header instead of inside the header. This fixed the problem in Mozilla Firefox without changing anything in the other browsers.
 * A white line that I didn't seem to be able to get rid off. Managed to solve it by giving the body a background-color.
 * The video in index.html was not being as responsive as I wanted it to be. Eventually I realized I needed to change desired width to 100% and height to a desired amount in iframe tag.
 * The gang: Had trouble getting the pictures in the right div to align good with the text for said pictures. Eventually realized it was padding-right that was needed.
