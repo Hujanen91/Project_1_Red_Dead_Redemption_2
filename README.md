@@ -407,7 +407,9 @@ Each item opened a new tab when clicked.
 
 ### Unfixed Bugs
 
-Responsiveness of the website worked on all devices, screen sizes and orientation. The only issue was in mozilla firefox where the brush effect didn't apply as expected on h1 and h2 titles. I tried simple fixes like changing padding etc but didn't get the results I wanted.that would work both on other browsers and on Mozilla Firefox.
+* Responsiveness of the website worked on all devices, screen sizes and orientation. The only issue was in mozilla firefox where the brush effect didn't apply as expected on h1 and h2 titles. I tried simple fixes like changing padding etc but didn't get the results I wanted.that would work both on other browsers and on Mozilla Firefox.
+* The embedded youtube video image is not centered when the screensize is smaller, this could be fixed with javascript using lazy loading.
+* The text inside the paragraphs in thegang.html can be improved to flow better next to the images by making the text wrap around the image. I realized this a bit too late and tried some solutions to this but couldn't make it work in time.
 
 ## Deployment
 
