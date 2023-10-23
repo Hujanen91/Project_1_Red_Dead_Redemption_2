@@ -1,7 +1,7 @@
 # Red Dead Redemption 2 Fan Page
 
 This website is intended to provide information in different forms about Rockstars game Red Dead Redemption 2 that was released on different platforms in October 2018.
-The intention is to provide a simple website that is easy to navigate, that provides information about the game in video, image and text. There's simple navigations, clear contrast between the colors on the webpage and the background. View the live site here [here](https://hujanen91.github.io/Code_Institute_Project_1/)
+The intention is to provide a simple website that is easy to navigate, that provides information about the game in video, image and text. There's simple navigations, clear contrast between the colors on the webpage and the background. View the live site here [here](https://hujanen91.github.io/Project_1_Red_Dead_Redemption_2/)
 
 ![Mockup](docs/readme_images/Mockup.png)
 
@@ -172,7 +172,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 Steps to test:
 
-1. Open browser and navigate to [Red Dead Redemption 2](https://hujanen91.github.io/Code_Institute_Project_1/)
+1. Open browser and navigate to [Red Dead Redemption 2](https://hujanen91.github.io/Project_1_Red_Dead_Redemption_2/)
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Set the zoom to 50%
@@ -256,7 +256,7 @@ The form on the home page was tested to ensure it functioned as expected when co
 
 Steps to test:
 
-1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Code_Institute_Project_1/contact.html)
+1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Project_1_Red_Dead_Redemption_2/contact.html)
 2. Scroll down to the form and input the following data:
    * First Name: John
    * Last Name: Doe
@@ -277,7 +277,7 @@ Website behaved as expected with no errors or warnings and redirected to contact
 
 Steps to test:
 
-1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Code_Institute_Project_1/contact.html)
+1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Project_1_Red_Dead_Redemption_2/contact.html)
 2. Scroll down to the form and input the following data:
    * First Name:
    * Last Name: Doe
@@ -297,7 +297,7 @@ Website behaved as expected, error message was displayed and the form did not su
 
 Steps to test:
 
-1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Code_Institute_Project_1/contact.html)
+1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Project_1_Red_Dead_Redemption_2/contact.html)
 2. Scroll down to the form and input the following data:
    * First Name:John
    * Last Name:
@@ -317,7 +317,7 @@ Website behaved as expected, error message was displayed and the form did not su
 
 Steps to test:
 
-1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Code_Institute_Project_1/contact.html)
+1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Project_1_Red_Dead_Redemption_2/contact.html)
 2. Scroll down to the form and input the following data:
    * First Name:John
    * Last Name: Doe
@@ -337,7 +337,7 @@ Website behaved as expected, error message was displayed and the form did not su
 
 Steps to test:
 
-1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Code_Institute_Project_1/contact.html)
+1. Navigate to [Red Dead Redemption 2 - Contact](https://hujanen91.github.io/Project_1_Red_Dead_Redemption_2/contact.html)
 2. Scroll down to the form and input the following data:
    * First Name:John
    * Last Name: Doe
@@ -434,7 +434,7 @@ The following git commands were used throughout development to push code to the 
   * Click 'Save'
   * A live link will be displayed in a green banner when published successfully.
 
-The live link can be found here - <https://hujanen91.github.io/Code_Institute_Project_1/>
+The live link can be found here - <https://hujanen91.github.io/Project_1_Red_Dead_Redemption_2/>
 
 ## Credits
 
